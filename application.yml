@@ -2,8 +2,6 @@ eureka:
   instance:
     lease-renewal-interval-in-seconds: 30
     lease-expiration-duration-in-seconds: 90
-    instance-id: localhost:springcloud:8089
-    prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/,http://localhost:8769/eureka/
