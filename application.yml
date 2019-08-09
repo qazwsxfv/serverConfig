@@ -8,3 +8,4 @@ eureka:
     healthcheck:
       enabled:  true
     registry-fetch-interval-seconds: 30
+zs: wwzl
